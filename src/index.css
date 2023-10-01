@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
+@layer {
+  .align-elements {
+    @apply mx-auto px-8 max-w-3xl my-auto py-10;
+  }
+}
